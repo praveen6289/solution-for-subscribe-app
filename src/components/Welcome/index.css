@@ -1,0 +1,58 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e293b;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1100;
+}
+.heading {
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+  font-size: 52px;
+  font-weight: bolder;
+}
+.description {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.sub-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  border-radius: 8px;
+  border-width: 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 86px;
+  }
+  .description {
+    font-size: 36px;
+  }
+  .sub-button {
+    font-size: 18px;
+  }
+}
